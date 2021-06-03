@@ -14,7 +14,7 @@ function clicou2(){
   oReq.send();
 }
 
-
+/*
 
 function clicou(){
 document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
@@ -46,7 +46,7 @@ function voltar(elemento){
 //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
 }
 
-
+*/
 /*
 
 function soma(n1, n2){
