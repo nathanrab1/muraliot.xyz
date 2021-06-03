@@ -8,3 +8,7 @@ body{
   margin: 15px;
   padding: 15px;
 }
+
+.btn-outline-primary{
+  background: white;
+}
