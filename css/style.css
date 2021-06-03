@@ -1,3 +1,10 @@
 body{
   background: black;
 }
+
+.titulo{
+  background: antiquewhite;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 2px;
+}
