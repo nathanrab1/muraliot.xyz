@@ -3,8 +3,29 @@ body{
 }
 
 .titulo{
+  width: 200px;
   background: white;
   border-radius: 15px;
   margin: 15px;
   padding: 15px;
+  text-align: center;
 }
+
+<style>
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+
+.center {
+    background: black;
+}
+</style>
+
+<div class="container">
+  <div class="center">
+    <p>I am vertically and horizontally centered.</p>
+  </div>
+</div>
