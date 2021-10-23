@@ -2,9 +2,9 @@ function clicou1(){
   console.log(this.responseText);//should be return value of 1
   var oReq = new XMLHttpRequest();
  oReq.open("get", "https://api.thingspeak.com/update?api_key=LZO5NSZVQGPBNP32&field1=1", true);
- // oReq.onload = redirecionar();
+ oReq.onload = redirecionar();
  // oReq.open("get", "179.113.61.116:1987/ledon", true);
- // oReq.send();
+  oReq.send();
 }
 
 function clicou2(){
@@ -13,7 +13,7 @@ function clicou2(){
  oReq.open("get", "https://api.thingspeak.com/update?api_key=LZO5NSZVQGPBNP32&field1=0", true);
  // oReq.onload = redirecionar();
 //oReq.open("get", "179.113.61.116:1987/ledoff", true);
-//  oReq.send();
+  oReq.send();
 }
 
 /*
